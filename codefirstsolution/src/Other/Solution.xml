@@ -83,6 +83,7 @@
       <RootComponent type="300" schemaName="dkdt_syncme_9ab84" behavior="0" />
       <RootComponent type="66" schemaName="dkdt_dkdt.reactfieldcontrol" behavior="0" />
       <RootComponent type="91" id="{5e875860-31a8-42e0-8f3f-562ff82bfda8}" schemaName="myplugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc1a4d5efeab9412" behavior="0" />
+      <RootComponent type="92" id="{151b1890-0edb-ee11-904c-6045bdd8c66c}" behavior="0" />
     </RootComponents>
     <MissingDependencies />
   </SolutionManifest>
