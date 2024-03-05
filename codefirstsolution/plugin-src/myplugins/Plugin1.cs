@@ -29,16 +29,16 @@ namespace myplugins
             // TODO: Implement your custom business logic
 
             // Check for the entity on which the plugin would be registered
-            //if (context.InputParameters.Contains("Target") && context.InputParameters["Target"] is Entity)
-            //{
-            //    var entity = (Entity)context.InputParameters["Target"];
+            if (context.InputParameters.Contains("Target") && context.InputParameters["Target"] is Entity)
+            {
+                var entity = (Entity)context.InputParameters["Target"];
 
-            //    // Check for entity name on which this plugin would be registered
-            //    if (entity.LogicalName == "account")
-            //    {
-
-            //    }
-            //}
+                // Check for entity name on which this plugin would be registered
+                if (entity.LogicalName == "account")
+                {
+                    entity["name"] = entity["name"] + " (modified)";
+                }
+            }
         }
     }
 }
