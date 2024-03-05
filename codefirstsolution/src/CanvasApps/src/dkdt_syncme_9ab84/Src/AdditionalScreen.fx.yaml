@@ -1,7 +1,7 @@
 AdditionalScreen As screen:
 
     Label2 As label:
-        Text: ="Another Screen updated in source control"
+        Text: ="Another Screen"
         X: =40
         Y: =40
         ZIndex: =1

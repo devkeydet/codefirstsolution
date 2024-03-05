@@ -98,11 +98,11 @@
       "usenonblockingonstartrule": true,
       "userdefinedfunctions": false,
       "webbarcodescanner": false,
-      "zeroalltabindexes": true
+      "zeroalltabindexes": false
     },
     "Author": "",
     "BindingErrorCount": 0,
-    "ContainsThirdPartyPcfControls": false,
+    "ContainsThirdPartyPcfControls": true,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
     "DocumentLayoutHeight": 768,
@@ -116,8 +116,7 @@
     "FileID": "ec7154d3-6369-40e9-9850-7c808b6baf05",
     "Id": "ec7154d3-6369-40e9-9850-7c808b6baf05",
     "InstrumentationKey": "",
-    "LocalDatabaseReferences": "",
-    "ManualOfflineProfileId": null,
+    "ManualOfflineProfileId": "",
     "Name": "sync-me",
     "OriginatingVersion": "1.337",
     "ParserErrorCount": 0,

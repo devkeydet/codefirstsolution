@@ -81,6 +81,7 @@
     </Publisher>
     <RootComponents>
       <RootComponent type="300" schemaName="dkdt_syncme_9ab84" behavior="0" />
+      <RootComponent type="66" schemaName="dkdt_dkdt.reactfieldcontrol" behavior="0" />
     </RootComponents>
     <MissingDependencies />
   </SolutionManifest>
