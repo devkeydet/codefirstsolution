@@ -12,6 +12,8 @@
   <CustomControls />
   <SolutionPluginAssemblies />
   <SdkMessageProcessingSteps />
+  <AppModuleSiteMaps />
+  <AppModules />
   <EntityDataProviders />
   <CanvasApps />
   <Languages>
