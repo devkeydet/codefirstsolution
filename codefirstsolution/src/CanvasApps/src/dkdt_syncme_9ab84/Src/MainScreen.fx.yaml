@@ -1,0 +1,8 @@
+MainScreen As screen:
+
+    Label1 As label:
+        Text: ="Main Screen"
+        X: =40
+        Y: =40
+        ZIndex: =1
+
