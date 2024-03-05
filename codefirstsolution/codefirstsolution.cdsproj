@@ -50,6 +50,7 @@
   
   <ItemGroup>
     <ProjectReference Include="pcf-src\reactfieldcontrol\reactfieldcontrol.pcfproj" />
+    <ProjectReference Include="plugin-src\myplugins\myplugins.csproj" />
   </ItemGroup>
 
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
