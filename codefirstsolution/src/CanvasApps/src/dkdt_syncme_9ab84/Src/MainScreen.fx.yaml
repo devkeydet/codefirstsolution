@@ -14,3 +14,11 @@ MainScreen As screen:
         Y: =103
         ZIndex: =3
 
+    reactfieldcontrol3 As reactfieldcontrol:
+        DisplayMode: =DisplayMode.Edit
+        Height: =200
+        Width: =200
+        X: =40
+        Y: =221
+        ZIndex: =4
+

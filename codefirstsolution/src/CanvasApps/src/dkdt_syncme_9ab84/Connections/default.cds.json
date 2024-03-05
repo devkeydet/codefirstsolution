@@ -7,6 +7,14 @@
       "ComponentName": "CustomControl",
       "Identifier": "dkdt_dkdt.reactfieldcontrol",
       "IdentifierType": 0
+    },
+    {
+      "Capabilities": {
+        "PCFExternalServiceUsageAllowed": false
+      },
+      "ComponentName": "CustomControl",
+      "Identifier": "dkdt_dkdt.reactfieldcontrol",
+      "IdentifierType": 0
     }
   ],
   "instanceUrl": "https://dkdt-dev-1.crm.dynamics.com/",
