@@ -2,17 +2,23 @@
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
-    "AdditionalScreen": 8,
+    "AdditionalScreen": 7,
     "App": 1,
+    "BottomContainer1": 12,
+    "HeaderContainer1": 11,
     "Host": 3,
     "Label1": 5,
-    "Label2": 9,
+    "Label2": 8,
+    "MainContainer1": 14,
     "MainScreen": 4,
-    "reactfieldcontrol2": 6
+    "reactfieldcontrol2": 6,
+    "ScreenContainer1": 10,
+    "SidebarContainer1": 13,
+    "SideBarScreen": 9
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "03/05/2024 16:26:05",
+  "HeaderLastSavedDateTimeUTC": "03/05/2024 18:29:30",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -25,16 +31,23 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
+    "groupContainer": 1,
     "label": 0
   },
   "OverridablePropertiesEntry": {
     "AdditionalScreen": {},
     "App": {},
+    "BottomContainer1": {},
+    "HeaderContainer1": {},
     "Host": {},
     "Label1": {},
     "Label2": {},
+    "MainContainer1": {},
     "MainScreen": {},
-    "reactfieldcontrol2": {}
+    "reactfieldcontrol2": {},
+    "ScreenContainer1": {},
+    "SidebarContainer1": {},
+    "SideBarScreen": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {
@@ -56,23 +69,29 @@
   "PublishOrderIndices": {
     "AdditionalScreen": 0,
     "App": 0,
+    "BottomContainer1": 5,
+    "HeaderContainer1": 4,
     "Host": 0,
     "Label1": 0,
     "Label2": 2,
+    "MainContainer1": 7,
     "MainScreen": 0,
-    "reactfieldcontrol2": 1
+    "reactfieldcontrol2": 1,
+    "ScreenContainer1": 3,
+    "SidebarContainer1": 6,
+    "SideBarScreen": 0
   },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0572357,
+    "AnalysisLoadTime": 0.056708399999999999,
     "ControlCount": {
-      "dkdt_dkdt.reactfieldcontrol": 2,
+      "dkdt_dkdt.reactfieldcontrol": 1,
       "label": 2,
       "screen": 2
     },
-    "DeserializationLoadTime": 1.8634558000000001
+    "DeserializationLoadTime": 2.5867545000000001
   },
   "WasLocalDatabaseReferencesEmpty": false
 }

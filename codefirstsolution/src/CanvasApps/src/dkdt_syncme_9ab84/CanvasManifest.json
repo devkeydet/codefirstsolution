@@ -135,6 +135,7 @@
   },
   "ScreenOrder": [
     "MainScreen",
-    "AdditionalScreen"
+    "AdditionalScreen",
+    "SideBarScreen"
   ]
 }
