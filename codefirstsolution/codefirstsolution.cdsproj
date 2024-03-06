@@ -13,7 +13,7 @@
     <!--Remove TargetFramework when this is available in 16.1-->
     <TargetFramework>net462</TargetFramework>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
-    <SolutionRootPath>src</SolutionRootPath>
+    <SolutionRootPath>solution-src</SolutionRootPath>
   </PropertyGroup>
 
   <!-- 
