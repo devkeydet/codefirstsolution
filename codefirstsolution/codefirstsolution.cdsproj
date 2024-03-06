@@ -13,7 +13,7 @@
     <!--Remove TargetFramework when this is available in 16.1-->
     <TargetFramework>net462</TargetFramework>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
-    <SolutionRootPath>solution-src</SolutionRootPath>
+    <SolutionRootPath>src</SolutionRootPath>
   </PropertyGroup>
 
   <!-- 
@@ -23,7 +23,8 @@
   
   <PropertyGroup>
     <SolutionPackageType>Both</SolutionPackageType>
-    <SolutionPackageEnableLocalization>false</SolutionPackageEnableLocalization>
+    <SolutionPackageEnableLocalization>false</SolutionPackageEnableLocalization>    
+    <SolutionPackageMapFilePath>map.xml</SolutionPackageMapFilePath>
   </PropertyGroup>
  
 

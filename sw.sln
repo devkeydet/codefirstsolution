@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "codefirstsolution", "codefirstsolution", "{C6314257-9076-481A-BFAC-7646EB202322}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "plugin-src", "plugin-src", "{0F05DE14-8DF9-41AA-A940-6CE71E48D79B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myplugins", "codefirstsolution\plugin-src\myplugins\myplugins.csproj", "{549677F8-C1D9-4416-971F-765D59528FE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{549677F8-C1D9-4416-971F-765D59528FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549677F8-C1D9-4416-971F-765D59528FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549677F8-C1D9-4416-971F-765D59528FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549677F8-C1D9-4416-971F-765D59528FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F05DE14-8DF9-41AA-A940-6CE71E48D79B} = {C6314257-9076-481A-BFAC-7646EB202322}
+		{549677F8-C1D9-4416-971F-765D59528FE5} = {0F05DE14-8DF9-41AA-A940-6CE71E48D79B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62777CE2-8559-4A5A-AE14-A1F1704AEE47}
+	EndGlobalSection
+EndGlobal
