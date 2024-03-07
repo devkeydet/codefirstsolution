@@ -2,10 +2,9 @@
 <Project 
   ToolsVersion="15.0" 
   DefaultTargets="Build"
-  InitialTargets="TempMinifyJs"
   xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
-  <Target Name="TempMinifyJs" Condition="'$(Configuration)' == 'Release'">
+  <Target Name="TempMinifyJs" BeforeTargets="Restore" Condition="'$(Configuration)' == 'Release'">
     <Exec Command="pwsh -file minify.ps1"/>
   </Target>
 
