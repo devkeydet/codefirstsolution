@@ -17,7 +17,15 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: Run a multi-line script
+      - name: Cache NuGet packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.nuget/packages
+          key: ${{ runner.os }}-nuget-${{ hashFiles('**/packages.lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-nuget-
+
+      - name: Build Solution
         run: |
           npm install -g uglify-js
           dotnet build -c release
