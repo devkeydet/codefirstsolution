@@ -8,10 +8,6 @@
     <Exec Command="pwsh -file minify.ps1"/>
   </Target>
 
-  <Target Name="CleanupMinifyJs" AfterTargets="Build" Condition="'$(Configuration)' == 'Release'">
-    <Exec Command="pwsh -file cleanup-minify.ps1"/>
-  </Target>
-
   <PropertyGroup>
     <PowerAppsTargetsPath>$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\PowerApps</PowerAppsTargetsPath>
   </PropertyGroup>
